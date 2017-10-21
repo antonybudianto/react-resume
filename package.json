@@ -1,0 +1,30 @@
+{
+  "name": "react-firebase-resume",
+  "version": "0.1.0",
+  "description": "Create a PDF resume using React and Firebase",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "babel-node src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonybudianto/react-firebase-resume.git"
+  },
+  "author": "Antony Budianto <antonybudianto@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antonybudianto/react-firebase-resume/issues"
+  },
+  "homepage": "https://github.com/antonybudianto/react-firebase-resume#readme",
+  "dependencies": {
+    "@react-pdf/core": "0.4.6",
+    "@react-pdf/node": "0.4.6",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0"
+  }
+}
