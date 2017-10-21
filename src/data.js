@@ -11,10 +11,24 @@ export const data = {
     year: '2015'
   },
   skills: {
-    name: 'Technical skills',
+    title: 'Skills',
     list: [
-      'React stacks (React Web, Native, VR)',
-      'Angular'
+      {
+        name: 'Technical skills',
+        list: [
+          'React platform (React Web, Native, VR)',
+          'HTML, CSS, JS, TypeScript',
+          'NodeJS, Jest, Webpack',
+          'Git, Travis CI, Docker'
+        ]
+      },
+      {
+        name: 'Soft skills',
+        list: [
+          'Teamwork',
+          'Languages: English, Indonesia'
+        ]
+      }
     ]
   },
   experience: {
@@ -25,7 +39,23 @@ export const data = {
         position: 'Frontend Engineer',
         date: '11-09-2017',
         details: [
-          'Developing frontend web applications using React'
+          'Developing frontend web apps using React'
+        ]
+      },
+      {
+        company: 'GDP Labs',
+        position: 'Senior Software Development Engineer',
+        date: '01-09-2015',
+        details: [
+          'Developing various enterprise web apps using Angular'
+        ]
+      },
+      {
+        company: 'Binus University',
+        position: 'Network Administrator',
+        date: '01-09-2014',
+        details: [
+          'Cloning images for software lab computers, ensure networks running well, patching, calibration, maintenance, and develop various network-based applications'
         ]
       }
     ]

@@ -18,7 +18,9 @@ const styles = StyleSheet.create({
 });
 
 const SkillEntry = ({ name, skills }) => (
-  <View>
+  <View style={{
+    marginBottom: 5
+  }}>
     <Text style={styles.title}>{name}</Text>
     <List>{skills.map((skill, i) => <Item key={i}>{skill}</Item>)}</List>
   </View>
@@ -26,11 +28,16 @@ const SkillEntry = ({ name, skills }) => (
 
 const Skills = ({ data }) => (
   <View>
-    <Title>Skills</Title>
-    <SkillEntry
-      name={data.name}
-      skills={data.list}
-    />
+    <Title>{data.title}</Title>
+    {
+      data.list.map((skill, i) => (
+        <SkillEntry
+          key={i}
+          name={skill.name}
+          skills={skill.list}
+        />
+      ))
+    }
   </View>
 );
 
