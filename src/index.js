@@ -86,7 +86,7 @@ const Resume = ({ data }) => (
         </View>
       </View>
       <Text style={styles.footer}>
-        Generated using https://github.com/antonybudianto/react-firebase-resume
+        Generated using https://github.com/antonybudianto/react-resume
       </Text>
     </Page>
   </Document>
