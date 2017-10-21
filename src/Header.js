@@ -44,14 +44,14 @@ const styles = StyleSheet.create({
   },
 });
 
-export default () => (
+export default ({ data }) => (
   <View style={styles.container}>
     <View style={styles.detailColumn}>
-      <Text style={styles.name}>Luke Skywalker</Text>
-      <Text style={styles.subtitle}>Jedi Master</Text>
+      <Text style={styles.name}>{data.fullName}</Text>
+      <Text style={styles.subtitle}>{data.subTitle}</Text>
     </View>
     <View style={styles.linkColumn}>
-      <Link style={styles.link}>luke@theforce.com</Link>
+      <Link style={styles.link}>{data.email}</Link>
     </View>
   </View>
 );

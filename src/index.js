@@ -14,6 +14,7 @@ import Header from './Header';
 import Education from './Education';
 import Experience from './Experience';
 import Skills from './Skills';
+import { data } from './data'
 
 const styles = StyleSheet.create({
   container: {
@@ -37,13 +38,13 @@ const styles = StyleSheet.create({
     marginTop: 20,
   },
   footer: {
-    fontSize: 12,
+    fontSize: 8,
     fontFamily: 'Lato Bold',
     align: 'center',
-    marginTop: 25,
+    marginTop: 5,
     marginHorizontal: 30,
-    paddingVertical: 10,
-    borderWidth: 3,
+    paddingVertical: 5,
+    borderWidth: 1,
     borderColor: 'gray',
     borderStyle: 'dashed',
   },
@@ -62,28 +63,28 @@ Font.register(`${__dirname}/fonts/Lato/Lato-Bold.ttf`, {
   family: 'Lato Bold',
 });
 
-const Resume = () => (
+const Resume = ({ data }) => (
   <Document>
     <Page size="A4">
-      <Header />
+      <Header data={data.header} />
       <View style={styles.container}>
         <View style={styles.leftColumn}>
           <Image
-            src="https://images.gr-assets.com/characters/1264613782p8/1783.jpg"
+            src={data.imageUrl}
             style={styles.image}
           />
-          <Education />
-          <Skills />
+          <Education data={data.education} />
+          <Skills data={data.skills} />
         </View>
         <View style={styles.rightColumn}>
-          <Experience />
+          <Experience data={data.experience} />
         </View>
       </View>
       <Text style={styles.footer}>
-        This IS the candidate you are looking for
+        Generated using https://github.com/antonybudianto/react-firebase-resume
       </Text>
     </Page>
   </Document>
 );
 
-ReactPDF.render(<Resume />, `${path.resolve(process.cwd())}/output.pdf`);
+ReactPDF.render(<Resume data={data} />, `${path.resolve(process.cwd())}/output.pdf`);

@@ -21,11 +21,11 @@ const styles = StyleSheet.create({
   },
 });
 
-export default () => (
+export default ({ data }) => (
   <View style={styles.container}>
     <Title>Education</Title>
-    <Text style={styles.school}>Jedi Academy</Text>
-    <Text style={styles.degree}>Jedi Master</Text>
-    <Text style={styles.candidate}>A long, long time ago</Text>
+    <Text style={styles.school}>{data.school}</Text>
+    <Text style={styles.degree}>{data.degree}</Text>
+    <Text style={styles.candidate}>{data.year}</Text>
   </View>
 );
