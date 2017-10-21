@@ -5,7 +5,7 @@ import Title from './Title';
 
 const styles = StyleSheet.create({
   container: {
-    marginBottom: 10
+    marginBottom: 15
   },
   containerText: {
     fontFamily: 'Lato',
