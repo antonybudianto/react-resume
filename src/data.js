@@ -7,7 +7,7 @@ export const data = {
   },
   education: {
     school: 'Binus University',
-    degree: 'Bachelor of Information Systems program',
+    degree: 'Bachelor degree of Information Systems major',
     year: '2015'
   },
   skills: {
@@ -25,7 +25,7 @@ export const data = {
       {
         name: 'Soft skills',
         list: [
-          'Teamwork',
+          'Team-player',
           'Languages: English, Indonesia'
         ]
       }

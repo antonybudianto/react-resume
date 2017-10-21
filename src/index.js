@@ -14,6 +14,8 @@ import Header from './Header';
 import Education from './Education';
 import Experience from './Experience';
 import Skills from './Skills';
+import Summary from './Summary';
+import Profile from './Profile'
 import { data } from './data'
 
 const styles = StyleSheet.create({
@@ -78,6 +80,8 @@ const Resume = ({ data }) => (
           <Skills data={data.skills} />
         </View>
         <View style={styles.rightColumn}>
+          <Profile />
+          <Summary />
           <Experience data={data.experience} />
         </View>
       </View>

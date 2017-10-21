@@ -1,0 +1,33 @@
+import React from 'react';
+import { Text, View, StyleSheet } from '@react-pdf/core';
+
+import Title from './Title';
+
+const styles = StyleSheet.create({
+  container: {
+    marginBottom: 10
+  },
+  containerText: {
+    fontFamily: 'Lato',
+    fontSize: 10
+  }
+});
+
+const Profile = () => (
+  <View style={styles.container}>
+    <Title>Profile</Title>
+    <View>
+      <Text style={styles.containerText}>
+        Name: Antony Budianto
+      </Text>
+      <Text style={styles.containerText}>
+        DOB: August 8th, 1993
+      </Text>
+      <Text style={styles.containerText}>
+        From: Pontianak, Indonesia
+      </Text>
+    </View>
+  </View>
+);
+
+export default Profile;
