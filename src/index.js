@@ -10,13 +10,13 @@ import {
 } from '@react-pdf/core';
 import ReactPDF from '@react-pdf/node';
 import path from 'path';
-import Header from './Header';
-import Education from './Education';
-import Experience from './Experience';
-import Skills from './Skills';
-import Summary from './Summary';
-import Profile from './Profile'
-import { data } from './data'
+import Header from './sections/Header';
+import Education from './sections/Education';
+import Experience from './sections/Experience';
+import Skills from './sections/Skills';
+import Summary from './sections/Summary';
+import Profile from './sections/Profile'
+import { data } from './store/data'
 
 const styles = StyleSheet.create({
   container: {

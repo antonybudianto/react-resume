@@ -1,8 +1,8 @@
 import React from 'react';
 import { PropTypes } from 'prop-types'
 import { Text, View, StyleSheet } from '@react-pdf/core';
-import Title from './Title';
-import List, { Item } from './List';
+import Title from '../components/Title';
+import List, { Item } from '../components/List';
 
 const styles = StyleSheet.create({
   title: {
