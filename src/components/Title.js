@@ -4,6 +4,7 @@ import { Text, StyleSheet } from '@react-pdf/core';
 
 const styles = StyleSheet.create({
   title: {
+    color: 'cornflowerblue',
     fontFamily: 'Lato Bold',
     fontSize: 14,
     marginBottom: 10,
