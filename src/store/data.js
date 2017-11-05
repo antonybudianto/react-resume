@@ -39,7 +39,7 @@ export const data = {
         position: 'Frontend Engineer',
         date: '11-09-2017',
         details: [
-          'Developing frontend web apps using React'
+          'Developing frontend web apps using React and unit test using Jest'
         ]
       },
       {
@@ -47,7 +47,7 @@ export const data = {
         position: 'Senior Software Development Engineer',
         date: '01-09-2015',
         details: [
-          'Developing various enterprise web apps using Angular'
+          'Developing various enterprise web apps using Angular and unit test using Karma and Jasmine'
         ]
       },
       {
