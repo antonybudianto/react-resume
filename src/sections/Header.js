@@ -4,13 +4,11 @@ import { Link, Text, View, StyleSheet } from '@react-pdf/core';
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    marginTop: 30,
-    marginLeft: 30,
-    marginRight: 30,
-    marginBottom: 0,
-    borderBottomWidth: 2,
-    borderBottomColor: '#112131',
-    borderBottomStyle: 'solid',
+    paddingTop: 30,
+    paddingLeft: 30,
+    paddingRight: 30,
+    paddingBottom: 30,
+    backgroundColor: '#3498db',
     alignItems: 'stretch',
   },
   detailColumn: {
@@ -19,17 +17,19 @@ const styles = StyleSheet.create({
   },
   linkColumn: {
     flexDirection: 'column',
-    flexGrow: 2,
+    flexGrow: 4,
     alignSelf: 'flex-end',
     justifySelf: 'flex-end',
   },
   name: {
     fontSize: 24,
+    color: 'white',
     textTransform: 'uppercase',
     fontFamily: 'Lato Bold',
   },
   subtitle: {
     fontSize: 10,
+    color: 'white',
     justifySelf: 'flex-end',
     textTransform: 'uppercase',
     fontFamily: 'Lato',
@@ -37,9 +37,9 @@ const styles = StyleSheet.create({
   link: {
     fontFamily: 'Lato',
     fontSize: 10,
-    color: 'black',
+    color: 'white',
     textDecoration: 'none',
-    alignSelf: 'flex-end',
+    alignItems: 'flex-end',
     justifySelf: 'flex-end',
   },
 });
@@ -52,6 +52,7 @@ export default ({ data }) => (
     </View>
     <View style={styles.linkColumn}>
       <Link style={styles.link}>{data.email}</Link>
+      <Link style={styles.link}>{data.github}</Link>
     </View>
   </View>
 );

@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   date: {
-    fontSize: 11,
+    fontSize: 7,
     fontFamily: 'Lato Italic',
   },
   detailContainer: {
