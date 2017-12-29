@@ -20,7 +20,7 @@ export const data = {
           'React platform (Web, Native, VR)',
           'HTML, CSS, JS, TypeScript',
           'NodeJS, Jest, Webpack',
-          'Git, Travis CI, Docker'
+          'Git, Jenkins + Travis CI, Docker'
         ]
       },
       {
