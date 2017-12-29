@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@react-pdf/core@0.4.6", "@react-pdf/core@^0.4.6":
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/@react-pdf/core/-/core-0.4.6.tgz#8ec17eb54e8d9643d031f821ba93fcb0a7fcc95e"
+"@react-pdf/core@0.5.1", "@react-pdf/core@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@react-pdf/core/-/core-0.5.1.tgz#d02d61db47a5490460c735ee695de0c124f9b1f3"
   dependencies:
     fbjs "^0.8.4"
     fontkit "^1.5.4"
@@ -24,11 +24,11 @@
     request "^2.81.0"
     string-hash "^1.1.3"
 
-"@react-pdf/node@0.4.6":
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/@react-pdf/node/-/node-0.4.6.tgz#210150ce10c2d4488f145311effdde896250d031"
+"@react-pdf/node@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@react-pdf/node/-/node-0.5.1.tgz#41575a9620175afa738c13b0b87f294311fb505c"
   dependencies:
-    "@react-pdf/core" "^0.4.6"
+    "@react-pdf/core" "^0.5.1"
     react "16.0.0-alpha.4"
 
 abbrev@1:
@@ -1841,9 +1841,9 @@ react@16.0.0-alpha.4:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
 
-react@^16.0.0:
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.0.0.tgz#ce7df8f1941b036f02b2cca9dbd0cb1f0e855e2d"
+react@^16.2.0:
+  version "16.2.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.2.0.tgz#a31bd2dab89bff65d42134fa187f24d054c273ba"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
