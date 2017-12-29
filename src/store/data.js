@@ -26,7 +26,7 @@ export const data = {
       {
         name: 'Soft skills',
         list: [
-          'Team-player',
+          'Team-player, fast learner',
           'Languages: English, Indonesia'
         ]
       }

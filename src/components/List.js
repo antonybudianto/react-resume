@@ -16,6 +16,7 @@ const styles = StyleSheet.create({
     flexGrow: 9,
   },
   bulletPoint: {
+    marginTop: 3,
     fontSize: 10,
   },
   itemContent: {
