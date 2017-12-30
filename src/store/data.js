@@ -40,15 +40,23 @@ export const data = {
         position: 'Frontend Engineer',
         date: 'Sep 2017 - now',
         details: [
-          'Developing Fintech web apps using React and unit test using Jest'
+          'Developed Fintech web apps using React and unit test using Jest'
         ]
       },
       {
         company: 'GDP Labs',
         position: 'Sr. Software Development Engineer',
-        date: 'Sep 2015 - Aug 2017',
+        date: 'Sep 2016 - Aug 2017',
         details: [
-          'Developing various enterprise web apps using Angular and unit test using Karma and Jasmine'
+          'Developed HR platform web apps using Angular 2'
+        ]
+      },
+      {
+        company: 'GDP Labs',
+        position: 'Software Development Engineer',
+        date: 'Sep 2015 - Aug 2016',
+        details: [
+          'Developed vehicle insurance enterprise application using AngularJS'
         ]
       },
       {
@@ -57,6 +65,14 @@ export const data = {
         date: 'Sep 2014 - Aug 2015',
         details: [
           'Cloning images for software lab computers, ensure networks running well, patching, calibration, maintenance, and develop various network-based applications'
+        ]
+      },
+      {
+        company: 'Binus University',
+        position: 'Teaching Assistant',
+        date: 'Sep 2013 - Aug 2014',
+        details: [
+          'Teach various programming languages in software lab classes'
         ]
       }
     ]
