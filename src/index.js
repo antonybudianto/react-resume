@@ -76,11 +76,11 @@ const Resume = ({ data }) => (
             src={data.imageUrl}
             style={styles.image}
           />
+          <Profile />
           <Education data={data.education} />
           <Skills data={data.skills} />
         </View>
         <View style={styles.rightColumn}>
-          <Profile />
           <Summary />
           <Experience data={data.experience} />
         </View>
