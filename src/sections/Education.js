@@ -5,7 +5,7 @@ import Title from '../components/Title';
 
 const styles = StyleSheet.create({
   container: {
-    marginBottom: 10,
+    marginBottom: 15,
   },
   school: {
     fontFamily: 'Lato Bold',

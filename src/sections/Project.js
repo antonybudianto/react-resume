@@ -5,13 +5,10 @@ import Title from '../components/Title';
 import List, { Item } from '../components/List';
 
 const styles = StyleSheet.create({
-  mainContainer: {
-    marginBottom: 5
-  },
   container: {
     marginBottom: 10,
   },
-  date: {
+  link: {
     fontSize: 8,
     fontFamily: 'Lato Italic',
     height: 7
@@ -47,7 +44,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     flexGrow: 1,
     alignItems: 'flex-end',
-    justifySelf: 'flex-end',
+    justifyContent: 'center'
   },
   title: {
     fontSize: 11,
@@ -57,8 +54,8 @@ const styles = StyleSheet.create({
   },
 });
 
-const ExperienceEntry = ({ company, details, position, date }) => {
-  const title = `${company} | ${position}`;
+const ProjectEntry = ({ name, link, details }) => {
+  const title = `${name}`;
   return (
     <View style={styles.container}>
       <View style={styles.headerContainer}>
@@ -66,7 +63,7 @@ const ExperienceEntry = ({ company, details, position, date }) => {
           <Text style={styles.title}>{title}</Text>
         </View>
         <View style={styles.rightColumn}>
-          <Text style={styles.date}>{date}</Text>
+          <Text style={styles.link}>{link}</Text>
         </View>
       </View>
       <List>
@@ -80,28 +77,25 @@ const ExperienceEntry = ({ company, details, position, date }) => {
   );
 };
 
-const Experience = ({ data }) => (
-  <View style={styles.mainContainer}>
+const Project = ({ data }) => (
+  <View>
     <Title>{data.title}</Title>
     {
       data.list.map((exp, i) => (
-        <ExperienceEntry
+        <ProjectEntry
           key={i}
-          company={exp.company}
-          date={exp.date}
+          name={exp.name}
+          link={exp.link}
           details={exp.details}
-          position={exp.position}
         />
       ))
     }
   </View>
 );
 
-ExperienceEntry.propTypes = {
-  company: PropTypes.string,
-  date: PropTypes.string,
-  details: PropTypes.array,
-  position: PropTypes.string,
+ProjectEntry.propTypes = {
+  name: PropTypes.string,
+  details: PropTypes.array
 };
 
-export default Experience;
+export default Project;

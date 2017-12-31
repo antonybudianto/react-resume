@@ -8,12 +8,12 @@ const styles = StyleSheet.create({
   title: {
     fontFamily: 'Lato Bold',
     fontSize: 11,
-    marginBottom: 10,
+    marginBottom: 5,
   },
   skills: {
     fontFamily: 'Lato',
     fontSize: 10,
-    marginBottom: 10,
+    marginBottom: 5,
   },
 });
 

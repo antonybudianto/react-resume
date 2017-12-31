@@ -13,6 +13,7 @@ import path from 'path';
 import Header from './sections/Header';
 import Education from './sections/Education';
 import Experience from './sections/Experience';
+import Project from './sections/Project';
 import Skills from './sections/Skills';
 import Summary from './sections/Summary';
 import Profile from './sections/Profile'
@@ -83,6 +84,7 @@ const Resume = ({ data }) => (
         <View style={styles.rightColumn}>
           <Summary />
           <Experience data={data.experience} />
+          <Project data={data.project} />
         </View>
       </View>
       <Text style={styles.footer}>

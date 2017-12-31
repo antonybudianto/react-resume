@@ -4,12 +4,11 @@ import { Text, View, StyleSheet } from '@react-pdf/core';
 
 const styles = StyleSheet.create({
   item: {
-    flexDirection: 'row',
-    marginBottom: 5,
+    flexDirection: 'row'
   },
   itemLeftColumn: {
     flexDirection: 'column',
-    marginRight: 10,
+    marginRight: 5,
   },
   itemRightColumn: {
     flexDirection: 'column',

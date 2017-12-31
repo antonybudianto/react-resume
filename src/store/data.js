@@ -76,5 +76,18 @@ export const data = {
         ]
       }
     ]
+  },
+  project: {
+    title: 'Project',
+    list: [
+      {
+        name: 'CRA Universal',
+        link: 'https://github.com/antonybudianto/cra-universal',
+        details: [
+          'CLI to initialize universal create-react-app without ejecting',
+          'Supports server-side rendering with code splitting'
+        ]
+      }
+    ]
   }
 }
