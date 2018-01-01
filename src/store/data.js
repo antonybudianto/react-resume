@@ -17,10 +17,11 @@ export const data = {
       {
         name: 'Technical skills',
         list: [
-          'React platform (Web, Native, VR)',
-          'AngularJS', 'Angular',
           'HTML, CSS, JS, TypeScript',
-          'NodeJS, Jest, Webpack',
+          'React platform (Web, Native, VR)',
+          'AngularJS, Angular',
+          'Jest, Webpack',
+          'NodeJS, Java, Golang',
           'Git, Jenkins + Travis CI, Docker'
         ]
       },
