@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
   link: {
     fontSize: 8,
     fontFamily: 'Lato Italic',
-    height: 7
+    height: 8
   },
   detailContainer: {
     flexDirection: 'row',

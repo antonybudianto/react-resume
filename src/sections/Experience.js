@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
   date: {
     fontSize: 8,
     fontFamily: 'Lato Italic',
-    height: 7
+    height: 8
   },
   detailContainer: {
     flexDirection: 'row',
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     flexGrow: 1,
     alignItems: 'flex-end',
-    justifySelf: 'flex-end',
+    justifyContent: 'center'
   },
   title: {
     fontSize: 11,

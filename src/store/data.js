@@ -87,6 +87,13 @@ export const data = {
           'CLI to initialize universal create-react-app without ejecting',
           'Supports server-side rendering with code splitting'
         ]
+      },
+      {
+        name: 'Gitfun Web',
+        link: 'https://gitfun-web.herokuapp.com',
+        details: [
+          'Simple GitHub client browser and repository summary'
+        ]
       }
     ]
   }
