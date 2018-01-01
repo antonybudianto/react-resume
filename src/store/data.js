@@ -89,7 +89,7 @@ export const data = {
         ]
       },
       {
-        name: 'Gitfun Web',
+        name: 'Gitfun Web and React Native',
         link: 'https://gitfun-web.herokuapp.com',
         details: [
           'Simple GitHub client browser and repository summary'
