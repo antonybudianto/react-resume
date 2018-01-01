@@ -38,7 +38,7 @@ export const data = {
       {
         company: 'Tokopedia',
         position: 'Frontend Engineer',
-        date: 'Sep 2017 - now',
+        date: 'Sep 2017 - present',
         details: [
           'Developed Fintech web apps using React and unit test using Jest'
         ]
