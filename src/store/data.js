@@ -89,10 +89,11 @@ export const data = {
         ]
       },
       {
-        name: 'Gitfun Web and React Native',
+        name: 'Gitfun',
         link: 'https://gitfun-web.herokuapp.com',
         details: [
-          'Simple GitHub client browser and repository summary'
+          'Simple GitHub client browser and repository summary',
+          'Available on Web and Android (React Native)'
         ]
       }
     ]
