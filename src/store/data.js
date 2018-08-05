@@ -21,7 +21,7 @@ export const data = {
           'React platform (Web, Native, VR)',
           'AngularJS, Angular',
           'Jest, Webpack',
-          'NodeJS, Java, Golang',
+          'NodeJS, Golang',
           'Git, Jenkins + Travis CI, Docker'
         ]
       },
@@ -39,10 +39,11 @@ export const data = {
     list: [
       {
         company: 'Tokopedia',
-        position: 'Frontend Engineer',
+        position: 'Front-end Engineer',
         date: 'Sep 2017 - present',
         details: [
-          'Developed Fintech web apps using React and unit test using Jest'
+          '- Developing and maintaining frontend of Tokopedia Fintech products (Mitra Toppers, Personal Loan, Credit Card, Insurance, Mutual Funds, Gold, and more)',
+          '- Building CLI toolkit to standardize frontend tooling across current/upcoming Tokopedia Fintech products which results in reusability, maintainability, and productivity'
         ]
       },
       {
@@ -86,8 +87,9 @@ export const data = {
         name: 'CRA Universal',
         link: 'https://github.com/antonybudianto/cra-universal',
         details: [
-          'CLI to initialize universal create-react-app without ejecting',
-          'Supports server-side rendering with code splitting'
+          'Create React App companion for universal app',
+          'No eject, Zero config, Full HMR',
+          'Supports server-side rendering with code-splitting'
         ]
       },
       {
