@@ -94,4 +94,4 @@ const Resume = ({ data }) => (
   </Document>
 );
 
-ReactPDF.render(<Resume data={data} />, `${path.resolve(process.cwd())}/output.pdf`);
+ReactPDF.render(<Resume data={data} />, `${path.resolve(process.cwd())}/cv.pdf`);
