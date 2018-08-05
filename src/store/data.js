@@ -42,8 +42,8 @@ export const data = {
         position: 'Front-end Engineer',
         date: 'Sep 2017 - present',
         details: [
-          '- Developing and maintaining frontend of Tokopedia Fintech products (Mitra Toppers, Personal Loan, Credit Card, Insurance, Mutual Funds, Gold, and more)',
-          '- Building CLI toolkit to standardize frontend tooling across current/upcoming Tokopedia Fintech products which results in reusability, maintainability, and productivity'
+          'Developing and maintaining frontend of Tokopedia Fintech products (Mitra Toppers, Personal Loan, Credit Card, Insurance, Mutual Funds, Gold, and more)',
+          'Building CLI toolkit to standardize frontend tooling across current/upcoming Tokopedia Fintech products which results in reusability, maintainability, and productivity'
         ]
       },
       {
