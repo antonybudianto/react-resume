@@ -2,7 +2,7 @@ export const data = {
   imageUrl: 'https://antonybudianto.com/profile.jpg',
   header: {
     fullName: 'Antony Budianto',
-    subTitle: 'Software Engineer and Open source contributor',
+    subTitle: 'Sr. Software Engineer | Open source contributor | Writer',
     email: 'antonybudianto@gmail.com',
     github: 'https://github.com/antonybudianto'
   },
@@ -18,7 +18,7 @@ export const data = {
         name: 'Technical skills',
         list: [
           'HTML, CSS, JS, TypeScript',
-          'React platform (Web, Native, VR)',
+          'React platform (Web, Native)',
           'AngularJS, Angular',
           'Jest, Webpack',
           'NodeJS, Golang',
@@ -39,12 +39,18 @@ export const data = {
     list: [
       {
         company: 'Tokopedia',
-        position: 'Front-end Engineer',
-        date: 'Sep 2017 - present',
+        position: 'Senior Front-end Engineer',
+        date: 'Jul 2018 - present',
         details: [
-          'Developing and maintaining frontend of Tokopedia Fintech products (Mitra Toppers, Personal Loan, Credit Card, Insurance, Mutual Funds, Gold, and more)',
-          'Building CLI toolkit to standardize frontend tooling across current/upcoming Tokopedia Fintech products which results in reusability, maintainability, and productivity'
+          'Developing and maintaining front-end of Tokopedia Fintech products (Mitra Toppers, Personal Loan, Credit Card, Insurance, Mutual Funds, Gold, and more)',
+          'Building CLI toolkit to standardize front-end tooling across current/upcoming Tokopedia Fintech products which results in reusability, maintainability, and productivity'
         ]
+      },
+      {
+        company: 'Tokopedia',
+        position: 'Front-end Engineer',
+        date: 'Sep 2017 - Jun 2018',
+        details: []
       },
       {
         company: 'GDP Labs',
@@ -69,14 +75,6 @@ export const data = {
         details: [
           'Cloning images for software lab computers, ensure networks running well, patching, calibration, maintenance, and develop various network-based applications'
         ]
-      },
-      {
-        company: 'Binus University',
-        position: 'Teaching Assistant',
-        date: 'Sep 2013 - Aug 2014',
-        details: [
-          'Teach various programming languages in software lab classes'
-        ]
       }
     ]
   },
@@ -87,7 +85,7 @@ export const data = {
         name: 'CRA Universal',
         link: 'https://github.com/antonybudianto/cra-universal',
         details: [
-          'Create React App companion for universal app',
+          'Create React App companion CLI for universal app',
           'No eject, Zero config, Full HMR',
           'Supports server-side rendering with code-splitting'
         ]
