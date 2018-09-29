@@ -39,7 +39,7 @@ export const data = {
     list: [
       {
         company: 'Tokopedia',
-        position: 'Senior Front-end Engineer',
+        position: 'Senior Software Engineer',
         date: 'Jul 2018 - present',
         details: [
           'Developing and maintaining front-end of Tokopedia Fintech products (Mitra Toppers, Personal Loan, Credit Card, Insurance, Mutual Funds, Gold, and more)',
@@ -48,7 +48,7 @@ export const data = {
       },
       {
         company: 'Tokopedia',
-        position: 'Front-end Engineer',
+        position: 'Software Engineer',
         date: 'Sep 2017 - Jun 2018',
         details: []
       },
