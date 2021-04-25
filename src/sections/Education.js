@@ -1,22 +1,22 @@
-import React from 'react';
-import { Text, View, StyleSheet } from '@react-pdf/core';
+import React from "react";
+import { Text, View, StyleSheet } from "@react-pdf/renderer";
 
-import Title from '../components/Title';
+import Title from "../components/Title";
 
 const styles = StyleSheet.create({
   container: {
     marginBottom: 15,
   },
   school: {
-    fontFamily: 'Lato Bold',
+    fontFamily: "Lato",
     fontSize: 10,
   },
   degree: {
-    fontFamily: 'Lato',
+    fontFamily: "Lato",
     fontSize: 10,
   },
   candidate: {
-    fontFamily: 'Lato Italic',
+    fontFamily: "Lato Italic",
     fontSize: 10,
   },
 });

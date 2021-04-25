@@ -1,17 +1,17 @@
-import React from 'react';
-import { PropTypes } from 'prop-types'
-import { Text, View, StyleSheet } from '@react-pdf/core';
+import React from "react";
+import { PropTypes } from "prop-types";
+import { Text, View, StyleSheet } from "@react-pdf/renderer";
 
 const styles = StyleSheet.create({
   item: {
-    flexDirection: 'row'
+    flexDirection: "row",
   },
   itemLeftColumn: {
-    flexDirection: 'column',
+    flexDirection: "column",
     marginRight: 5,
   },
   itemRightColumn: {
-    flexDirection: 'column',
+    flexDirection: "column",
     flexGrow: 9,
   },
   bulletPoint: {
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   },
   itemContent: {
     fontSize: 10,
-    fontFamily: 'Lato',
+    fontFamily: "Lato",
   },
 });
 

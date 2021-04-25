@@ -18,13 +18,15 @@
   },
   "homepage": "https://github.com/antonybudianto/react-resume#readme",
   "dependencies": {
-    "@react-pdf/core": "0.5.1",
-    "@react-pdf/node": "0.5.1",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "prop-types": "^15.6.0",
-    "react": "^16.2.0"
+    "@babel/cli": "6.26.0",
+    "@babel/core": "7.13.16",
+    "@babel/preset-env": "7.13.15",
+    "@babel/preset-react": "7.13.13",
+    "@react-pdf/renderer": "2.0.6",
+    "prop-types": "15.6.0",
+    "react": "16.2.0"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.13.13"
   }
 }

@@ -1,28 +1,28 @@
-import React from 'react';
-import { PropTypes } from 'prop-types';
-import { Text, View, StyleSheet } from '@react-pdf/core';
-import Title from '../components/Title';
-import List, { Item } from '../components/List';
+import React from "react";
+import { PropTypes } from "prop-types";
+import { Text, View, StyleSheet } from "@react-pdf/renderer";
+import Title from "../components/Title";
+import List, { Item } from "../components/List";
 
 const styles = StyleSheet.create({
   container: {
     marginBottom: 10,
   },
   link: {
-    fontSize: 8,
-    fontFamily: 'Lato Italic',
-    height: 8
+    fontSize: 6,
+    fontFamily: "Lato Italic",
+    height: 8,
   },
   detailContainer: {
-    flexDirection: 'row',
+    flexDirection: "row",
   },
   detailLeftColumn: {
-    flexDirection: 'column',
+    flexDirection: "column",
     marginLeft: 10,
     marginRight: 10,
   },
   detailRightColumn: {
-    flexDirection: 'column',
+    flexDirection: "column",
     flexGrow: 9,
   },
   bulletPoint: {
@@ -30,27 +30,27 @@ const styles = StyleSheet.create({
   },
   details: {
     fontSize: 10,
-    fontFamily: 'Lato',
+    fontFamily: "Lato",
   },
   headerContainer: {
-    flexDirection: 'row',
-    marginBottom: 5
+    flexDirection: "row",
+    marginBottom: 5,
   },
   leftColumn: {
-    flexDirection: 'column',
+    flexDirection: "column",
     flexGrow: 9,
   },
   rightColumn: {
-    flexDirection: 'column',
+    flexDirection: "column",
     flexGrow: 1,
-    alignItems: 'flex-end',
-    justifyContent: 'center'
+    alignItems: "flex-end",
+    justifyContent: "center",
   },
   title: {
     fontSize: 11,
-    color: 'black',
-    textDecoration: 'none',
-    fontFamily: 'Lato Bold',
+    color: "black",
+    textDecoration: "none",
+    fontFamily: "Lato",
   },
 });
 
@@ -80,22 +80,20 @@ const ProjectEntry = ({ name, link, details }) => {
 const Project = ({ data }) => (
   <View>
     <Title>{data.title}</Title>
-    {
-      data.list.map((exp, i) => (
-        <ProjectEntry
-          key={i}
-          name={exp.name}
-          link={exp.link}
-          details={exp.details}
-        />
-      ))
-    }
+    {data.list.map((exp, i) => (
+      <ProjectEntry
+        key={i}
+        name={exp.name}
+        link={exp.link}
+        details={exp.details}
+      />
+    ))}
   </View>
 );
 
 ProjectEntry.propTypes = {
   name: PropTypes.string,
-  details: PropTypes.array
+  details: PropTypes.array,
 };
 
 export default Project;

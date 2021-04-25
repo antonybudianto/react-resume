@@ -1,31 +1,31 @@
-import React from 'react';
-import { PropTypes } from 'prop-types';
-import { Text, View, StyleSheet } from '@react-pdf/core';
-import Title from '../components/Title';
-import List, { Item } from '../components/List';
+import React from "react";
+import { PropTypes } from "prop-types";
+import { Text, View, StyleSheet } from "@react-pdf/renderer";
+import Title from "../components/Title";
+import List, { Item } from "../components/List";
 
 const styles = StyleSheet.create({
   mainContainer: {
-    marginBottom: 5
+    marginBottom: 5,
   },
   container: {
     marginBottom: 10,
   },
   date: {
-    fontSize: 8,
-    fontFamily: 'Lato Italic',
-    height: 8
+    fontSize: 6,
+    fontFamily: "Lato Italic",
+    height: 8,
   },
   detailContainer: {
-    flexDirection: 'row',
+    flexDirection: "row",
   },
   detailLeftColumn: {
-    flexDirection: 'column',
+    flexDirection: "column",
     marginLeft: 10,
     marginRight: 10,
   },
   detailRightColumn: {
-    flexDirection: 'column',
+    flexDirection: "column",
     flexGrow: 9,
   },
   bulletPoint: {
@@ -33,27 +33,27 @@ const styles = StyleSheet.create({
   },
   details: {
     fontSize: 10,
-    fontFamily: 'Lato',
+    fontFamily: "Lato",
   },
   headerContainer: {
-    flexDirection: 'row',
-    marginBottom: 5
+    flexDirection: "row",
+    marginBottom: 5,
   },
   leftColumn: {
-    flexDirection: 'column',
-    flexGrow: 9,
+    flexDirection: "column",
+    flexGrow: 8,
   },
   rightColumn: {
-    flexDirection: 'column',
-    flexGrow: 1,
-    alignItems: 'flex-end',
-    justifyContent: 'center'
+    flexDirection: "column",
+    flexGrow: 2,
+    alignItems: "flex-end",
+    justifyContent: "center",
   },
   title: {
     fontSize: 11,
-    color: 'black',
-    textDecoration: 'none',
-    fontFamily: 'Lato Bold',
+    color: "black",
+    textDecoration: "none",
+    fontFamily: "Lato",
   },
 });
 
@@ -83,17 +83,15 @@ const ExperienceEntry = ({ company, details, position, date }) => {
 const Experience = ({ data }) => (
   <View style={styles.mainContainer}>
     <Title>{data.title}</Title>
-    {
-      data.list.map((exp, i) => (
-        <ExperienceEntry
-          key={i}
-          company={exp.company}
-          date={exp.date}
-          details={exp.details}
-          position={exp.position}
-        />
-      ))
-    }
+    {data.list.map((exp, i) => (
+      <ExperienceEntry
+        key={i}
+        company={exp.company}
+        date={exp.date}
+        details={exp.details}
+        position={exp.position}
+      />
+    ))}
   </View>
 );
 
