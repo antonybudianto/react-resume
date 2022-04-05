@@ -18,7 +18,7 @@ const Summary = () => (
     <Title>Summary</Title>
     <View>
       <Text style={styles.containerText}>
-        A software engineer and open source contributor with 4+ years experience
+        A software engineer and open source contributor with 7+ years experience
         on software development, web design and development, git, writing unit
         and end-to-end tests, deployment and setup CI server. Actively
         contributing to open source and Google Cloud certified.

@@ -1,8 +1,9 @@
 export const data = {
-  imageUrl: "https://antonybudianto.com/images/profile.jpg",
+  imageUrl:
+    "https://media-exp1.licdn.com/dms/image/C5103AQHypglx6c2DYg/profile-displayphoto-shrink_800_800/0/1529806705843?e=1654732800&v=beta&t=JYqu0ALfvKm_AoGWtQqvnXqrxKfFeteHqO8wv2m8MDU",
   header: {
     fullName: "Antony Budianto",
-    subTitle: "Software Engineer | Open source contributor | Writer",
+    subTitle: "Software Engineer | Open source contributor",
     email: "antonybudianto@gmail.com",
     github: "https://github.com/antonybudianto",
   },
@@ -18,11 +19,9 @@ export const data = {
         name: "Technical skills",
         list: [
           "HTML, CSS, JS, TypeScript",
-          "React platform (Web, Native)",
-          "AngularJS, Angular",
+          "NodeJS, ReactJS, NextJS",
           "Jest, Webpack",
-          "NodeJS, Golang",
-          "Git, Jenkins + Travis CI, Docker",
+          "Git, GitHub Actions, Docker",
         ],
       },
       {
@@ -78,15 +77,16 @@ export const data = {
     list: [
       {
         name: "Deesain",
-        link: "https://deesain.com",
+        link: "https://deesain.netlify.com",
         details: ["Design graphic platform for any use"],
       },
       {
         name: "StickyNoted",
-        link: "https://stickynoted.xyz",
+        link: "https://stickynoted.netlify.com",
         details: [
           "Sticky-note app with markdown flavor",
           "Works offline and PWA ready",
+          "Featured on ProductHunt",
         ],
       },
       {
