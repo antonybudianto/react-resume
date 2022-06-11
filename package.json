@@ -4,7 +4,11 @@
   "description": "Create a PDF resume using React",
   "main": "src/index.js",
   "scripts": {
-    "start": "babel-node src/index",
+    "start": "npm run build",
+    "prebuild": "npm run clean && mkdir build",
+    "build": "babel-node src/index",
+    "postbuild": "mv cv.pdf build/cv.pdf",
+    "clean": "rm -rf ./build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
