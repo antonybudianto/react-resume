@@ -1,6 +1,5 @@
 export const data = {
-  imageUrl:
-    "https://media-exp1.licdn.com/dms/image/C5103AQHypglx6c2DYg/profile-displayphoto-shrink_800_800/0/1529806705843?e=1654732800&v=beta&t=JYqu0ALfvKm_AoGWtQqvnXqrxKfFeteHqO8wv2m8MDU",
+  imageUrl: "https://avatars.githubusercontent.com/u/7658554?v=4",
   header: {
     fullName: "Antony Budianto",
     subTitle: "Software Engineer | Open source contributor",

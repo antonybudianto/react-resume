@@ -18,7 +18,6 @@ const Profile = () => (
     <Title>Profile</Title>
     <View>
       <Text style={styles.containerText}>Name: Antony Budianto</Text>
-      <Text style={styles.containerText}>DOB: August 8th, 1993</Text>
       <Text style={styles.containerText}>From: Pontianak, Indonesia</Text>
     </View>
   </View>
