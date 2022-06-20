@@ -21,7 +21,7 @@ const Summary = () => (
         A software engineer and open source contributor with 7+ years experience
         on software development, web design and development, git, writing unit
         and end-to-end tests, deployment and setup CI server. Actively
-        contributing to open source and Google Cloud certified.
+        contributing to open source via GitHub.
       </Text>
     </View>
   </View>
