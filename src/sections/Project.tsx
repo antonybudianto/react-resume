@@ -1,5 +1,4 @@
 import React from "react";
-import { PropTypes } from "prop-types";
 import { Text, View, StyleSheet } from "@react-pdf/renderer";
 import Title from "../components/Title";
 import List, { Item } from "../components/List";
@@ -90,10 +89,5 @@ const Project = ({ data }) => (
     ))}
   </View>
 );
-
-ProjectEntry.propTypes = {
-  name: PropTypes.string,
-  details: PropTypes.array,
-};
 
 export default Project;

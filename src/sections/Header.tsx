@@ -51,8 +51,12 @@ export default ({ data }) => (
       <Text style={styles.subtitle}>{data.subTitle}</Text>
     </View>
     <View style={styles.linkColumn}>
-      <Link style={styles.link}>{data.email}</Link>
-      <Link style={styles.link}>{data.github}</Link>
+      <Link src={`mailto:${data.email}`} style={styles.link}>
+        <Text>{data.email}</Text>
+      </Link>
+      <Link src={data.github} style={styles.link}>
+        <Text>{data.github}</Text>
+      </Link>
     </View>
   </View>
 );

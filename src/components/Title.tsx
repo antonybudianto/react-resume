@@ -1,5 +1,4 @@
 import React from "react";
-import { PropTypes } from "prop-types";
 import { Text, StyleSheet } from "@react-pdf/renderer";
 
 const styles = StyleSheet.create({
@@ -13,9 +12,5 @@ const styles = StyleSheet.create({
 });
 
 const Title = ({ children }) => <Text style={styles.title}>{children}</Text>;
-
-Title.propTypes = {
-  children: PropTypes.node,
-};
 
 export default Title;
