@@ -33,9 +33,17 @@ export const data = {
     title: "Experience",
     list: [
       {
+        company: "Mekari",
+        position: "Front-end Engineer",
+        date: "Feb 2023 - present",
+        details: [
+          "Working on Enterprise frontend CMS and Chat product",
+        ],
+      },
+      {
         company: "Tokopedia",
         position: "Principal Software Engineer",
-        date: "Jan 2020 - present",
+        date: "Jan 2020 - Feb 2023",
         details: [
           "Developing tools and library for Tokopedia’s Web Platform to enhance developer experience and productivity",
           "Performance optimizations, code-reviews, mentoring sessions.",
