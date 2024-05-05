@@ -86,12 +86,12 @@ export const data = {
     list: [
       {
         name: "Deesain",
-        link: "https://deesain.netlify.com",
+        link: "https://deesain.netlify.app",
         details: ["Design graphic platform for any use"],
       },
       {
         name: "StickyNoted",
-        link: "https://stickynoted.netlify.com",
+        link: "https://stickynoted.netlify.app",
         details: [
           "Sticky-note app with markdown flavor",
           "Works offline and PWA ready",
