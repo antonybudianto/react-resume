@@ -6,10 +6,9 @@
   "scripts": {
     "start": "npm run build",
     "dev": "vite",
-    "prsbuild": "npm run clean && mkdir build",
     "build": "vite build && npm run vrun",
     "vrun": "node dist/index.mjs",
-    "postbuild": "mv cv.pdf build/cv.pdf",
+    "postbuild": "mkdir build && mv cv.pdf build/cv.pdf",
     "clean": "rm -rf ./build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
