@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
   containerText: {
     fontFamily: "Lato",
     fontSize: 11,
+    width: '55%'
   },
 });
 
@@ -18,10 +19,8 @@ const Summary = () => (
     <Title>Summary</Title>
     <View>
       <Text style={styles.containerText}>
-        A software engineer and open source contributor with 7+ years experience
-        on software development, web design and development, git, writing unit
-        and end-to-end tests, deployment and setup CI server. Actively
-        contributing to open source via GitHub.
+        A software engineer with 7+ years experience on web development from various industry (HRIS, E-Commerce, Fintech, CRM, Omni-channel).
+ Also been an open source contributor for CLI and frontend libraries on GitHub.
       </Text>
     </View>
   </View>

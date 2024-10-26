@@ -39,7 +39,7 @@ export const data = {
         details: [
           "Help migrating legacy monolithic Rails app to Nuxt V2",
           "Initiated JavaScript Error Stack parser CLI to help FE team to pinpoint the error location without sourcemap",
-          "Debugged and resolved high priority issue regarding FCM Notification delay"
+          "Leading long-pooling chat initiative to work seamlessly with FCM "
         ],
       },
       {

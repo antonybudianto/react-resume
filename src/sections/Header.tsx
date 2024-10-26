@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     paddingLeft: 30,
     paddingRight: 30,
     paddingBottom: 30,
-    backgroundColor: "#166ca5",
+    backgroundColor: "#6C7A89",
     alignItems: "stretch",
   },
   detailColumn: {

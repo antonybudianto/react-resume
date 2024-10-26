@@ -20,6 +20,7 @@ const styles = StyleSheet.create({
   itemContent: {
     fontSize: 10,
     fontFamily: "Lato",
+    width: '60%'
   },
 });
 

@@ -18,6 +18,7 @@ import Skills from "./sections/Skills";
 import Summary from "./sections/Summary";
 import Profile from "./sections/Profile";
 import { data } from "./store/data";
+import { fileURLToPath } from "url";
 
 const styles = StyleSheet.create({
   container: {
@@ -54,6 +55,9 @@ const styles = StyleSheet.create({
     borderStyle: "dashed",
   },
 });
+
+const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
+const __dirname = path.dirname(__filename) + '/../src'; // get the name of the directory
 
 Font.register({
   family: "Open Sans",
