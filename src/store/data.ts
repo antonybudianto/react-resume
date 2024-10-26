@@ -18,8 +18,8 @@ export const data = {
         name: "Technical skills",
         list: [
           "HTML, CSS, JS, TypeScript",
-          "NodeJS, ReactJS, NextJS",
-          "Jest, Webpack",
+          "NodeJS, Vue, Nuxt, React, Next",
+          "Vite, Vitest, Jest, Webpack",
           "Git, GitHub Actions, Docker",
         ],
       },
