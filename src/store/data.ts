@@ -38,8 +38,9 @@ export const data = {
         date: "Feb 2023 - present",
         details: [
           "Assisted WebRTC development and integration with B3",
-          "Initiated JavaScript Error Stack parser CLI to help FE team to pinpoint the error location without sourcemap",
-          "Leading long-pooling chat initiative to work seamlessly with FCM "
+          "Working with JIRA API for CRM integration",
+          "Created JS Error Stack parser CLI to help the team to pinpoint the error location without sourcemap",
+          "Leading polling feature for chat to work seamlessly with FCM"
         ],
       },
       {
@@ -94,8 +95,7 @@ export const data = {
         link: "https://stickynoted.netlify.app",
         details: [
           "Sticky-note app with markdown flavor",
-          "Works offline and PWA ready",
-          "Featured on ProductHunt",
+          "Works offline and PWA ready, featured on Product Hunt"
         ],
       },
       {
@@ -103,8 +103,7 @@ export const data = {
         link: "https://github.com/antonybudianto/cra-universal",
         details: [
           "Create React App companion CLI for universal app",
-          "No eject, Zero config, Full HMR",
-          "Supports server-side rendering with code-splitting",
+          "No eject, Zero config, Full HMR, SSR"
         ],
       },
     ],
