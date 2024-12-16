@@ -37,7 +37,7 @@ export const data = {
         position: "Front-end Engineer",
         date: "Feb 2023 - present",
         details: [
-          "Help migrating legacy monolithic Rails app to Nuxt V2",
+          "Assisted WebRTC development and integration with B3",
           "Initiated JavaScript Error Stack parser CLI to help FE team to pinpoint the error location without sourcemap",
           "Leading long-pooling chat initiative to work seamlessly with FCM "
         ],
