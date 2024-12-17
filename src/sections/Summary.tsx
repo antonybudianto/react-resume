@@ -19,7 +19,7 @@ const Summary = () => (
     <Title>Summary</Title>
     <View>
       <Text style={styles.containerText}>
-        A software engineer with 7+ years experience on web development from various industry (HRIS, E-Commerce, Fintech, CRM, Omni-channel).
+        A software engineer with 9+ years experience on web development from various industry (HRIS, E-Commerce, Fintech, CRM, Omni-channel).
  Also been an open source contributor for CLI and frontend libraries on GitHub.
       </Text>
     </View>

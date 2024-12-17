@@ -12,6 +12,7 @@ const styles = StyleSheet.create({
   itemRightColumn: {
     flexDirection: "column",
     flexGrow: 9,
+    width: '60%'
   },
   bulletPoint: {
     marginTop: 3,
@@ -20,7 +21,6 @@ const styles = StyleSheet.create({
   itemContent: {
     fontSize: 10,
     fontFamily: "Lato",
-    width: '60%'
   },
 });
 

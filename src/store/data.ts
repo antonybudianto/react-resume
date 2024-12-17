@@ -8,7 +8,7 @@ export const data = {
   },
   education: {
     school: "Binus University",
-    degree: "Bachelor degree of Information Systems major",
+    degree: "Bachelor degree of Information Systems",
     year: "2015",
   },
   skills: {
