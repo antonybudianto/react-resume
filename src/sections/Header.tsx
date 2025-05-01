@@ -44,6 +44,13 @@ const styles = StyleSheet.create({
   },
 });
 
+const removeHttps = (url) => {
+  if (url.startsWith("https://")) {
+    return url.replace("https://", "");
+  }
+  return url;
+};
+
 export default ({ data }) => (
   <View style={styles.container}>
     <View style={styles.detailColumn}>
@@ -55,7 +62,13 @@ export default ({ data }) => (
         <Text>{data.email}</Text>
       </Link>
       <Link src={data.github} style={styles.link}>
-        <Text>{data.github}</Text>
+        <Text>{removeHttps(data.github)}</Text>
+      </Link>
+      <Link src={data.linkedin} style={styles.link}>
+        <Text>{removeHttps(data.linkedin)}</Text>
+      </Link>
+      <Link src={data.web} style={styles.link}>
+        <Text>{removeHttps(data.web)}</Text>
       </Link>
     </View>
   </View>

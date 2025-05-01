@@ -5,6 +5,8 @@ export const data = {
     subTitle: "Software Engineer | Open source contributor",
     email: "antonybudianto@gmail.com",
     github: "https://github.com/antonybudianto",
+    linkedin: "https://linkedin.com/in/antonybudianto/",
+    web: "https://antonybudianto.com",
   },
   education: {
     school: "Binus University",
