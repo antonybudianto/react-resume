@@ -37,10 +37,10 @@ export const data = {
         position: "Front-end Engineer",
         date: "Feb 2023 - present",
         details: [
+          "Developed MCP for Mekari Pixel Web to enhance DX and slicing Figma design to code",
           "Assisted WebRTC development and integration with B3",
-          "Working with JIRA API for CRM integration",
           "Created JS Error Stack parser CLI to help the team to pinpoint the error location without sourcemap",
-          "Leading polling feature for chat to work seamlessly with FCM"
+          "Leading polling feature for chat to work seamlessly with FCM",
         ],
       },
       {
@@ -57,14 +57,16 @@ export const data = {
         position: "Senior Software Engineer",
         date: "Jul 2018 - Dec 2019",
         details: [
-          "Developing and maintaining front-end of Tokopedia Fintech products (Mitra Toppers, Personal Loan, Credit Card, Insurance, Mutual Funds, Gold, and more)",
+          "Develop internal CLI for reusable webpack configs and commands",
         ],
       },
       {
         company: "Tokopedia",
         position: "Software Engineer",
         date: "Sep 2017 - Jun 2018",
-        details: [],
+        details: [
+          "Developing and maintaining front-end of Tokopedia Fintech products (Mitra Toppers, Personal Loan, Credit Card, Insurance, Mutual Funds, Gold, and more)",
+        ],
       },
       {
         company: "GDP Labs",
@@ -95,7 +97,7 @@ export const data = {
         link: "https://stickynoted.netlify.app",
         details: [
           "Sticky-note app with markdown flavor",
-          "Works offline and PWA ready, featured on Product Hunt"
+          "Works offline and PWA ready, featured on Product Hunt",
         ],
       },
       {
@@ -103,7 +105,7 @@ export const data = {
         link: "https://github.com/antonybudianto/cra-universal",
         details: [
           "Create React App companion CLI for universal app",
-          "No eject, Zero config, Full HMR, SSR"
+          "No eject, Zero config, Full HMR, SSR",
         ],
       },
     ],
