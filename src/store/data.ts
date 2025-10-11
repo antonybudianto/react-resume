@@ -40,7 +40,7 @@ export const data = {
         date: "Feb 2023 - present",
         details: [
           "Developed MCP for Mekari Pixel Web to enhance DX and slicing Figma design to code",
-          "Assisted WebRTC development and integration with B3",
+          "Developed unified component library monorepo that supports Vue 2 and 3",
           "Created JS Error Stack parser CLI to help the team to pinpoint the error location without sourcemap",
           "Leading polling feature for chat to work seamlessly with FCM",
         ],
