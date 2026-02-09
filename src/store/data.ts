@@ -35,9 +35,18 @@ export const data = {
     title: "Experience",
     list: [
       {
+        company: "Master the Monster (MTM)",
+        position: "Front-end Engineer",
+        date: "Oct 2025 - Present",
+        details: [
+          "Building web application and SDK library using Angular and TypeScript",
+          "Analyze JS bundle and implement lazy loading to improve performance",
+        ],
+      },
+      {
         company: "Mekari",
         position: "Front-end Engineer",
-        date: "Feb 2023 - present",
+        date: "Feb 2023 - Oct 2025",
         details: [
           "Developed MCP for Mekari Pixel Web to enhance DX and slicing Figma design to code",
           "Developed unified component library monorepo that supports Vue 2 and 3",
@@ -67,7 +76,7 @@ export const data = {
         position: "Software Engineer",
         date: "Sep 2017 - Jun 2018",
         details: [
-          "Developing and maintaining front-end of Tokopedia Fintech products (Mitra Toppers, Personal Loan, Credit Card, Insurance, Mutual Funds, Gold, and more)",
+          "Developing and maintaining front-end of Tokopedia Fintech products (Personal Loan, Credit Card, Insurance, Mutual Funds, Gold)",
         ],
       },
       {
@@ -98,8 +107,7 @@ export const data = {
         name: "StickyNoted",
         link: "https://stickynoted.netlify.app",
         details: [
-          "Sticky-note app with markdown flavor",
-          "Works offline and PWA ready, featured on Product Hunt",
+          "Sticky-note app with markdown flavor. featured on Product Hunt",
         ],
       },
       {
@@ -107,7 +115,6 @@ export const data = {
         link: "https://github.com/antonybudianto/cra-universal",
         details: [
           "Create React App companion CLI for universal app",
-          "No eject, Zero config, Full HMR, SSR",
         ],
       },
     ],
