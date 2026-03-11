@@ -4,6 +4,10 @@ Based on [react-pdf](https://github.com/diegomura/react-pdf)
 
 ## How to use
 
+```sh
+npm i -g pnpm@10.29.2
+```
+
 1. Clone this repo
 2. Run `npm start`
 3. Your PDF will be generated on `build` folder

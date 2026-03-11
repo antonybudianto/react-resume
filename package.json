@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/antonybudianto/react-resume#readme",
   "dependencies": {
-    "@react-pdf/renderer": "4.0.0",
+    "@react-pdf/renderer": "4.3.0",
     "prop-types": "15.8.1",
     "react": "18.2.0"
   },
