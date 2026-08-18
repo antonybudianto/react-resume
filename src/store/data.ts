@@ -99,6 +99,13 @@ export const data = {
     title: "Project",
     list: [
       {
+        name: "Krevios",
+        link: "https://krevios.com",
+        details: [
+          "A visual workflow builder and execution engine for AI-generated media",
+        ],
+      },
+      {
         name: "Deesain",
         link: "https://deesain.netlify.app",
         details: ["Design graphic platform for any use"],
@@ -108,13 +115,6 @@ export const data = {
         link: "https://stickynoted.netlify.app",
         details: [
           "Sticky-note app with markdown flavor. featured on Product Hunt",
-        ],
-      },
-      {
-        name: "CRA Universal",
-        link: "https://github.com/antonybudianto/cra-universal",
-        details: [
-          "Create React App companion CLI for universal app",
         ],
       },
     ],
